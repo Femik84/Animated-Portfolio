@@ -41,12 +41,12 @@ export default function Hero() {
     // -------- MOBILE VERSION (Below 700px) --------
     <>
       <video
-        className="skills-video2 autoBlur"
+        className="skills-video2 autoBlur "
         autoPlay
         loop
         muted
         playsInline
-        src="/videos/hero-video.mp4"
+        src="/videos/hero.mp4"
       ></video>
 
       <div
@@ -134,7 +134,7 @@ export default function Hero() {
           loop
           muted
           playsInline
-          src="/videos/hero-video.mp4"
+          src="/videos/hero.mp4"
         ></video>
       </div>
       <div

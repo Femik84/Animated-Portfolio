@@ -60,6 +60,41 @@ export default function SkillsSection() {
           </div>
         </div>
       </div>
+
+
+
+
+
     </section>
   );
 }
+
+
+
+
+
+//  <div className="skills-box autoDisplay">
+//         <div
+//           className="slider"
+//           style={{
+//             "--width": "100px",
+//             "--height": "100px",
+//             "--quantity": 9,
+//           }}
+//         >
+//           <div className="list">
+//             {[...Array(10)].map((_, index) => (
+//               <div
+//                 className="item"
+//                 key={index}
+//                 style={{ "--position": index + 1 }}
+//               >
+//                 <img
+//                   src={`/images/${index + 1}.png`}
+//                   alt={`Skill ${index + 1}`}
+//                 />
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+//       </div>
